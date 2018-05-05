@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Assistant App</string>
+    <string name="slp">Select User Type:</string>
+    <string name="sc">Select Course:</string>
+    <string name="ss">Select Section:</string>
+    <string name="lg">Logout</string>
+    <string name="cs">Change Password</string>
+    <string name="course_class">Select Class:</string>
+    <string-array name="usertypes">
+    <item>Teacher</item>
+    <item>Student</item>
+    </string-array>
+</resources>

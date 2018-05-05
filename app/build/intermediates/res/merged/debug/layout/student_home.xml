@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Register Class"
+        android:id="@+id/button4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="registerClass"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Find Swapper"
+        android:id="@+id/button5"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="swapper"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Add Event"
+        android:id="@+id/button6"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="addEvent"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="View Event List"
+        android:id="@+id/button7"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="view_event"
+        android:layout_below="@+id/button6"
+        android:layout_alignStart="@+id/button4"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Upload to Book Library"
+        android:id="@+id/button12"
+        android:textSize="10dp"
+        android:typeface="serif"
+        android:onClick="upload"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Book Library"
+        android:id="@+id/button14"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="download"
+        android:layout_below="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+
+</RelativeLayout>

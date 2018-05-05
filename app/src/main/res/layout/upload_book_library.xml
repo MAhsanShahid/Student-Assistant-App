@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select File:"
+        android:id="@+id/textView7"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        android:layout_below="@+id/crsd"
+        android:layout_alignStart="@+id/crsd"
+        android:layout_marginTop="50dp" />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse"
+        android:id="@+id/button10"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:layout_gravity="right"
+        android:layout_alignEnd="@+id/crsd"
+        android:layout_toRightOf="@+id/uplbook"
+        android:layout_below="@+id/textView7"
+        android:onClick="BrowseFile" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/uplbook"
+        android:layout_below="@+id/textView7"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff010"
+        android:typeface="serif"
+        android:enabled="false"
+        android:editable="false"
+        android:clickable="false"
+        android:autoText="true"
+        android:layout_marginTop="10dp"
+        android:hint="File Path" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Upload"
+        android:id="@+id/button11"
+        android:layout_below="@+id/uplbook"
+        android:layout_marginTop="87dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:onClick="UploadFile" />
+
+</RelativeLayout>

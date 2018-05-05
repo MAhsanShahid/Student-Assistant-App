@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fn"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="First Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:nextFocusDown="@+id/ln"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/fn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:nextFocusDown="@+id/em"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/em"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/ln"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:autoLink="email"
+        android:inputType="textEmailAddress"
+        android:nextFocusDown="@+id/ps"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ps"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/em"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="textPassword"
+        android:nextFocusDown="@+id/UserType"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="false" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/UserType"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gender:"
+            android:id="@+id/textView"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/radioButton2"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/radioButton"
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Sign Up"
+        android:id="@+id/snp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="sign_up"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserType"
+        android:layout_below="@+id/ps"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/usertypes"
+        android:prompt="@string/slp"
+        />
+</RelativeLayout>

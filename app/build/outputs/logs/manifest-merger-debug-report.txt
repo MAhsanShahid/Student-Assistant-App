@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:2:1-154:12
+	package
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:11:22-79
+uses-permission#com.student.studentassistantapp.permission.C2D_MESSAGE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:12:5-93
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:12:22-91
+permission#com.student.studentassistantapp.permission.C2D_MESSAGE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:13:5-124
+	android:protectionLevel
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:13:87-122
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:13:17-86
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:14:5-91
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:14:22-72
+application
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:16:5-152:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:19:9-41
+	android:supportsRtl
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:20:9-35
+	android:allowBackup
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:18:9-43
+activity#com.student.studentassistantapp.MainActivity
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.student.studentassistantapp.Homes
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:30:19-40
+intent-filter#android.intent.action.homes+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.homes
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:32:17-70
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:32:25-67
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:34:27-73
+activity#com.student.studentassistantapp.Login
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:38:9-44:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:38:19-40
+intent-filter#android.intent.action.login+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:39:13-43:29
+action#android.intent.action.login
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:40:17-70
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:40:25-67
+activity#com.student.studentassistantapp.SignUP
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:45:19-41
+intent-filter#android.intent.action.signup+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.signup
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:47:17-71
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:47:25-68
+activity#com.student.studentassistantapp.StudentHome
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:53:19-46
+intent-filter#android.intent.action.stdhome+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.stdhome
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:55:17-72
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:55:25-69
+activity#com.student.studentassistantapp.TeacherHome
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:60:9-66:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:60:19-46
+intent-filter#android.intent.action.teacherhome+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:61:13-65:29
+action#android.intent.action.teacherhome
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:62:25-73
+activity#com.student.studentassistantapp.AddClass
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:68:9-74:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:68:19-43
+intent-filter#android.intent.action.addclass+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:69:13-73:29
+action#android.intent.action.addclass
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:70:17-73
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:70:25-70
+activity#com.student.studentassistantapp.ChangePassword
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:76:9-82:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:76:19-49
+intent-filter#android.intent.action.changepassword+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:77:13-81:29
+action#android.intent.action.changepassword
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:78:25-76
+activity#com.student.studentassistantapp.RegisterClass
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:84:9-90:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:84:19-48
+intent-filter#android.intent.action.registerclass+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:85:13-89:29
+action#android.intent.action.registerclass
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:86:17-78
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:86:25-75
+activity#com.student.studentassistantapp.DownloadFile
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:92:9-98:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:92:19-47
+intent-filter#android.intent.action.dnfile+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.dnfile
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:94:17-71
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:94:25-68
+activity#com.student.studentassistantapp.Swapper
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:100:9-106:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:100:19-42
+intent-filter#android.intent.action.swapper+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:101:13-105:29
+action#android.intent.action.swapper
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:102:17-72
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:102:25-69
+activity#com.student.studentassistantapp.Add_Event
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:108:9-114:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:108:19-44
+intent-filter#android.intent.action.addevent+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:109:13-113:29
+action#android.intent.action.addevent
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:110:17-73
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:110:25-70
+activity#com.student.studentassistantapp.View_Event
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:116:9-122:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:116:19-45
+intent-filter#android.intent.action.viewevent+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:117:13-121:29
+action#android.intent.action.viewevent
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:118:17-74
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:118:25-71
+activity#com.student.studentassistantapp.UploadResource
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:124:9-130:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:124:19-49
+intent-filter#android.intent.action.uploadresourse+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:125:13-129:29
+action#android.intent.action.uploadresourse
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:126:17-79
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:126:25-76
+activity#com.student.studentassistantapp.UploadBookLibrary
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:131:9-137:20
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:131:19-52
+intent-filter#android.intent.action.uploadbooklibrary+android.intent.category.DEFAULT
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:132:13-136:29
+action#android.intent.action.uploadbooklibrary
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:133:17-82
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:133:25-79
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:140:9-142:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:142:13-66
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:141:13-58
+receiver#com.backendless.push.BackendlessBroadcastReceiver
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:145:9-151:20
+	android:permission
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:145:84-144
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:145:19-83
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.student.studentassistantapp
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:146:13-150:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:147:17-80
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:147:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:148:17-85
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:148:25-83
+category#com.student.studentassistantapp
+ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:149:17-75
+	android:name
+		ADDED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml:149:27-73
+uses-sdk
+INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TALHA\AndroidStudioProjects\StudentAssistantApp\app\src\main\AndroidManifest.xml

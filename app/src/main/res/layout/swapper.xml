@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.student.studentassistantapp.Swapper"
+    android:background="@drawable/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Post a Request for Swapper"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:typeface="serif" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Current Course and Section"
+        android:id="@+id/current"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/textView"
+        android:typeface="serif" />
+
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_course"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:theme="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_marginTop="45dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_section"
+        android:layout_below="@+id/current_course"
+        android:layout_alignParentStart="true"
+        android:theme="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reqrequired Course and Section"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_below="@+id/current_section"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txv"
+        android:typeface="serif" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/required_course"
+        android:layout_centerVertical="true"
+        android:theme="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_below="@+id/txv"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/required_section"
+        android:layout_below="@+id/required_course"
+        android:layout_alignParentStart="true"
+        android:theme="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Save"
+        android:id="@+id/snp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="swap"
+        android:textSize="15dp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Find Swapper"
+        android:id="@+id/button13"
+        android:layout_above="@+id/snp"
+        android:layout_centerHorizontal="true"
+        android:onClick="Check"
+        android:typeface="serif"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Swapper not found!"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:id="@+id/status"
+        android:layout_below="@+id/required_section"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
